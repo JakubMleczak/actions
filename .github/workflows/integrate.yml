@@ -14,5 +14,5 @@ jobs:
       - name: Run vet & lint
         run: |
           go vet .
-          golint .   
+          go lint .   
       - run: go run main.go
