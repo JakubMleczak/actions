@@ -22,4 +22,4 @@ jobs:
             version: v1.29  
       - name: Test
         run: go test -v ./...     
-      - run: go run main.go
+      - run: go run .

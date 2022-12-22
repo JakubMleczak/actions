@@ -18,7 +18,7 @@ func charToInt(c rune) int {
 	}
 }
 
-func action() {
+func runAction() {
 	file, err := os.Open("input.txt")
 	if err != nil {
 		log.Fatal(err)
