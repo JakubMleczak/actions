@@ -20,4 +20,6 @@ jobs:
         with:
             # Optional: version of golangci-lint to use in form of v1.2 or v1.2.3 or `latest` to use the latest version
             version: v1.29  
+      - name: Test
+        run: go test -v ./...     
       - run: go run main.go
